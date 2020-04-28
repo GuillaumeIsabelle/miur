@@ -1,0 +1,49 @@
+{
+  "name": "miur",
+  "author": "Guillaume Descoteaux-Isabelle, inherited from project: Kai Mallea <kmallea@gmail.com> (https://kai.dev)",
+  "description": "A image is uploaded to ImgUR and a Markdown image code is generated",
+  "version": "0.0.1",
+  "homepage": "https://github.com/GuillaumeIsabelle/miur",
+  "license": "MIT",
+  "keywords": [
+    "imgur",
+    "upload",
+    "images",
+    "markdown"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GuillaumeIsabelle/miur.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GuillaumeIsabelle/miur/issues"
+  },
+  "main": "esm/index.js",
+  "types": "types",
+  "scripts": {
+    "test": "web-scripts test",
+    "lint": "web-scripts lint",
+    "fix": "web-scripts fix",
+    "build": "web-scripts build",
+    "commit": "web-scripts commit",
+    "release": "web-scripts release"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.13.4",
+    "husky": "^2.4.1"
+  },
+  "dependencies": {
+    "@spotify/web-scripts": "^1.0.0",
+    "@types/form-data": "^2.2.1",
+    "@types/node-fetch": "^2.3.2",
+    "form-data": "^2.3.3",
+    "node-fetch": "^2.3.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "web-scripts commitmsg",
+      "pre-commit": "web-scripts precommit"
+    }
+  }
+}
