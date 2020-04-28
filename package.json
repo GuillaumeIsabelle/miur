@@ -2,7 +2,7 @@
   "name": "miur",
   "author": "Guillaume Descoteaux-Isabelle, inherited from project: Kai Mallea <kmallea@gmail.com> (https://kai.dev)",
   "description": "A image is uploaded to ImgUR and a Markdown image code is generated",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/GuillaumeIsabelle/miur",
   "license": "MIT",
   "keywords": [
