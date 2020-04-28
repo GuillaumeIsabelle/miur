@@ -27,7 +27,6 @@
     "miur": "miur.js"
   },
   "dependencies": {
-
+    "imgur": "^0.3.1"
   }
-  
 }
