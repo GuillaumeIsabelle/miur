@@ -2,7 +2,7 @@
   "name": "miur",
   "author": "Guillaume Descoteaux-Isabelle, inherited from project: Kai Mallea <kmallea@gmail.com> (https://kai.dev)",
   "description": "A image is uploaded to ImgUR and a Markdown image code is generated",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "homepage": "https://github.com/GuillaumeIsabelle/miur",
   "license": "MIT",
   "keywords": [
@@ -18,15 +18,13 @@
   "bugs": {
     "url": "https://github.com/GuillaumeIsabelle/miur/issues"
   },
-  "main": "esm/index.js",
-  "types": "types",
+  "main": "iur.js",
   "scripts": {
-    "test": "web-scripts test",
-    "lint": "web-scripts lint",
-    "fix": "web-scripts fix",
-    "build": "web-scripts build",
-    "commit": "web-scripts commit",
-    "release": "web-scripts release"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "upload": "imgur myfile.png #output the URL"
+  },
+  "bin": {
+    "miur": "miur.js"
   },
   "devDependencies": {
     "@types/jest": "^24.0.11",
